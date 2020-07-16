@@ -2,7 +2,7 @@
 
 function feetToMile(feet) {
     if (feet < 0) {
-        return "'distance can not be negative'";
+        return "distance can not be negative";
     } else {
         var mile = feet / 5280;
 
@@ -19,7 +19,7 @@ console.log("The conversion result is " + result + " miles.")
 
 function woodCalculator(chair, table, bed) {
     if (chair < 0 || table < 0 || bed < 0) {
-        return "'number of wooden things can't be negative'";
+        return "number of wooden things can't be negative";
     } else {
         var total = chair * 1 + table * 3 + bed * 5;
         return total;
@@ -37,7 +37,7 @@ console.log("You'll need " + result2 + " cubic feet of wood");
 function brickCalculator(floor) {
     var brick = 0;
     if (floor < 0) {
-        return "'number of floors can't be negative.'";
+        return "number of floors can't be negative.";
 
     } else if (floor <= 10) {
         brick = floor * 15 * 1000;
@@ -48,7 +48,7 @@ function brickCalculator(floor) {
     }
     return brick;
 }
-var result3 = brickCalculator(40);
+var result3 = brickCalculator(45);
 console.log("You'll need " + result3 + " bricks.");
 
 
