@@ -58,7 +58,7 @@ console.log("You'll need " + result3 + " bricks.");
 
 // tinyFriend
 
-function tinyFriends(arr) {
+function tinyFriend(arr) {
 
     if (arr.length == 0) {
         return "Don't you have any friends? please insert some names!";
@@ -75,5 +75,5 @@ function tinyFriends(arr) {
 
 }
 var friends = ["navid", "opu", "zobayer", "Shahriaz"];
-var result4 = tinyFriends(friends);
+var result4 = tinyFriend(friends);
 console.log("Your friend with tiniest name is " + result4);
